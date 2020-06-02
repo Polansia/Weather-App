@@ -1,0 +1,135 @@
+body {
+	margin: 0 auto;
+	min-width: 360px;
+	font-family: Helvetica, sans-serif;
+}
+@media screen and (max-width: 380px) {
+	body {
+		margin: 5em auto;
+	}
+}
+/* Main content styles */
+.hidden {
+	display: none;
+}
+#content-container {
+	margin: 0 auto;
+	max-width: 600px;
+	height: 100%;
+	background-color: #34b9db;
+	border-radius: 25px;
+}
+main, footer {
+	margin: 0 auto;
+	padding: 1em;
+	width: 95%;
+}
+section {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+}
+a {
+	color: #0000b5;
+}
+/* Form styles */
+#zip {
+	width: 8.5em;
+	margin: 0 0.5em;
+}
+/* Result section styles */
+#temp-result h3 {
+	margin: 1em 0 0 0;
+}
+#temp-result p {
+	margin: 0 0 1em 0;
+}
+#temp-result img {
+	width: 50px;
+	height: 50px;
+}
+/* Open modal styles */
+.open-modal {
+	opacity: 0.2;
+}
+#contact-modal {
+	border: 1px solid #34515e;
+	background: #ffffff;
+	box-shadow: 0.5em 0.5em #252a2a;
+	padding: 1em;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 1;
+	width: 30%;
+	min-width: 200px;
+	max-width: 450px;
+}
+#contact-modal img {
+	float: right;
+	height: 1em;
+	width: auto;
+	padding: 0 0 0.5em 0;
+	cursor: pointer;
+}
+#contact-modal h3 {
+	padding: 0;
+}
+#contact-modal ul {
+	padding: 0 1em;
+}
+#contact-modal h3, li {
+	text-align: left;
+}
+/* Footer styles */
+footer {
+	position: relative;
+	bottom: -2em;
+	min-height: 20px;
+	font-size: 0.8em;
+}
+.left-footer {
+	float: left;
+}
+.right-footer {
+	float: right;
+}
+.left-footer, .right-footer {
+	padding: 2em;
+}
+#uv-text{
+
+width: 50px;
+background-color: antiquewhite;
+border-radius: 25px;
+display: inline-block;
+}
+label {
+	display: inline-block;
+  }
+#fiveday{
+margin-top: 10px;
+background-color: #34b9db;;
+text-align: center;
+border-radius: 25px;
+}
+.col-md-2{
+
+border-style: solid;
+border-width: 1px;
+border-radius: 25px;
+}
+
+.citybutton{
+
+margin-left: 10px;
+
+}
+#buttons-view{
+
+text-align: center;
+padding: 5%;
+
+
+}

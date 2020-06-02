@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check Your Weather</title>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</head>
+<body>
+<div id="content-container">
+	<main>
+		<section>
+			<header>
+				<h1 id="box">Check Current Weather</h1>
+			</header>
+			<p>Enter a valid city to check the weather.</p>
+			<form id="enter-zip">
+				<label for="zip">City :</label>
+				<input type="text" placeholder="Enter city name" id="zip" required />
+				<button id="check-weather">Check Weather</button>
+			</form>
+		</section>
+	<section id="temp-result" class="hidden">
+		<h3></h3>
+		<img src="" alt="" />
+		
+		<p></p>
+	</section>
+	<section id="humidity-result" class="hidden">
+		
+		<p></p>
+	</section>
+	<section id="windspeed-result" class="hidden">
+		
+		<p></p>
+	</section>
+	<section id="uv-result" class="hidden">
+		<label for="uv-text">UV Index=</label>
+		<p id="uv-text"></p>
+	</section>
+	</main>
+
+</div>
+
+<div class="container hidden" id="fiveday">
+
+	<div class="row">
+		<div class="col-md-2">
+
+			<h2>Five day Forecast</h2>
+
+		</div>
+		
+		<div id=tomorrow0 class="col-md-2">
+			
+		</div>
+
+		 <div id=tomorrow1 class="col-md-2">
+			
+		</div>
+
+		<div id = tomorrow2 class="col-md-2">
+			
+		</div>
+
+		<div id = tomorrow3 class="col-md-2">
+			
+		</div>
+
+		<div id = tomorrow4 class="col-md-2">
+			
+		</div>
+		
+
+
+	</div>
+
+
+</div>
+
+<div id="buttons-view">
+
+
+
+</div>
+
+</body>
+</html> 
